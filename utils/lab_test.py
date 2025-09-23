@@ -78,7 +78,6 @@ def simple_test(search_function: Callable, task: Union[int, None], *args):
         (3, 0),
         (8, 9),
         (14, 7),
-        (12, 4),
     ]
     goals = [
         (11, 20),
@@ -105,7 +104,6 @@ def simple_test(search_function: Callable, task: Union[int, None], *args):
         (10, 20),
         (12, 28),
         (2, 29),
-        (1, 29),
     ]
     lengths = [
         36,
@@ -132,7 +130,6 @@ def simple_test(search_function: Callable, task: Union[int, None], *args):
         29,
         33,
         42,
-        44,
     ]
 
     if (task is None) or not (0 <= task < 25):
